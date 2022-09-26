@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha3843w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="nav">
+        <h6>Codo a Codo</h6>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:black;">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:black;" >Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" style="color:gray;">Desactivado</a>
+        </li>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" >
+             <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </ul>
+
+    <!--Tarjetas-->
+
+    <div class="card-group">
+        <div class="card">
+          <img src="img/html.jpg" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Título 1</h5>
+            <p class="card-text">Contenido de Card</p>
+            <p class="card-text"><small class="text-muted">Ultima actualización 1</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/css.png" class="card-img-top" alt="css">
+          <div class="card-body">
+            <h5 class="card-title">Título 2</h5>
+            <p class="card-text">Contenido de Card</p>
+            <p class="card-text"><small class="text-muted">Ultima actualización 1</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/bootstrap.png" class="card-img-top" alt="bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Título 3</h5>
+            <p class="card-text">Contenido de Card</p>
+            <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+          </div>
+        </div>
+      </div>
+      <!--Formulario-->
+      <form class="formulario"> 
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca comparta su email.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
