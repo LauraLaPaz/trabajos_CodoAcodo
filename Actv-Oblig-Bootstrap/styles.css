@@ -1,0 +1,19 @@
+h6{
+    padding: 1%;
+    line-height: 1%;
+
+}
+
+.d-flex {
+padding: 1%;
+padding-left: 40%;
+text-align:right;
+margin: auto;
+position: relative;
+box-sizing: border-box;
+}
+form {
+    display: block;
+    padding-left: 1%;
+    padding: 1%;
+}
